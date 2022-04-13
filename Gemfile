@@ -32,7 +32,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
-  gem "sqlite3", "~> 1.4"
+  gem 'rails-controller-testing'
 end
 
 group :production do
