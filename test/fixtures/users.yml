@@ -1,1 +1,4 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+priscila:
+  name: Priscila Cabral
+  email: priscila@gmail.com
+  password_digest: <%= User.digest('password') %>
