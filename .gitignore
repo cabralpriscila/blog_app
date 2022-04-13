@@ -9,7 +9,7 @@
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
-/db/*.sqlite3-*
+/db/*.sqlite3-journal
 
 # Ignore all logfiles and tempfiles.
 /log/*
@@ -17,30 +17,15 @@
 !/log/.keep
 !/tmp/.keep
 
-# Ignore pidfiles, but keep the directory.
-/tmp/pids/*
-!/tmp/pids/
-!/tmp/pids/.keep
+# Ignore Byebug command history file.
+.byebug_history
 
-# Ignore uploaded files in development.
-/storage/*
-!/storage/.keep
-/tmp/storage/*
-!/tmp/storage/
-!/tmp/storage/.keep
+# Ignore Spring files.
+/spring/*.pid
 
-/public/assets
+# Ignore uploaded test images.
+/public/uploads
 
-# Ignore master key for decrypting credentials and more.
-/config/master.key
+.theia/
 
-# Ignore db test files.
-db/test.
-
-/public/packs
-/public/packs-test
-/node_modules
-/yarn-error.log
-yarn-debug.log*
-.yarn-integrity
-node_modules
+.vscode/
