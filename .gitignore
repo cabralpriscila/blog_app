@@ -29,3 +29,5 @@
 .theia/
 
 .vscode/
+
+node_modules/

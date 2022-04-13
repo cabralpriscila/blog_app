@@ -1,4 +1,11 @@
 {
+  "name": "blog-app",
+  "author": "priscila cabral",
+  "email": "priscilacabral.dev@gmail.com",
+  "license": "MIT",
+  "version": "0.0.1",
+  "private": true,
+
   "dependencies": {
     "@rails/webpacker": "5.4.3",
     "bootstrap": "^5.1.3",
